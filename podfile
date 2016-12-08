@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '下拉放大上推出现导航栏' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for 下拉放大上推出现导航栏
+pod 'AFNetworking'
+pod 'YYWebImage'
+  target '下拉放大上推出现导航栏Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '下拉放大上推出现导航栏UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
